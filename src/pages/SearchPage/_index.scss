@@ -1,0 +1,52 @@
+.sw-search-page {
+  background-image: url('/public/assets/background.jpg');
+  background-size: cover;
+
+  &__result-item-preview {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 35%;
+  }
+
+  &__search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 24px;
+  }
+
+  &__search-results,
+  &__result-item-details {
+    display: none;
+    padding: 24px;
+  }
+
+  &__back-to-search {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+
+    &:hover {
+      text-shadow: $textShadowNeonGreen;
+    }
+  }
+
+  // states
+  &.sw-is-searching {
+    .sw-search-page {
+      &__search-container {
+        height: 120px;
+        justify-content: flex-start;
+      }
+
+      &__search-results,
+      &__result-item-details {
+        display: block;
+        min-height: calc(100vh - 120px);
+      }
+    }
+  }
+}

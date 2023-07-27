@@ -1,0 +1,26 @@
+.sw-planet-results-list {
+  &__category-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__category-logo {
+    max-width: 32px;
+    max-height: 32px;
+  }
+
+  &__lightsaber {
+    img {
+      max-width: 100px;
+    }
+  }
+
+  &__category-group {
+    padding: 8px 16px 16px 28px;
+  }
+}

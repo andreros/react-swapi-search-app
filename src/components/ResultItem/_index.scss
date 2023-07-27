@@ -1,0 +1,11 @@
+.sw-result-item {
+  &__anchor {
+    display: inline-block;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+    &:hover {
+      text-shadow: $textShadowNeonGreen;
+    }
+  }
+}
