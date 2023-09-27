@@ -21,6 +21,7 @@ underneath.
 - `DotEnv` to load project environment variables;
 - `React-Query` by `TanStack` to retrieve and manage data inside the application;
   performed operation;
+- `Statoscope` to generate reports about the application;
 
 ## Installation and platform bootstrap
 

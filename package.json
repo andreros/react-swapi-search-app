@@ -11,6 +11,7 @@
   "author": "André Rosa (andreros@gmail.com)",
   "license": "The Unlicensed",
   "devDependencies": {
+    "@statoscope/webpack-plugin": "^5.28.0",
     "@tanstack/react-query-devtools": "^4.29.25",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
