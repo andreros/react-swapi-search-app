@@ -16,12 +16,18 @@ underneath.
 ## Application Tech Stack
 
 - `React` framework (with Typescript) for the overall application development;
-- `SASS` to build the needed application styles;
+- `SASS` style pre-processor to build the needed application styles;
 - `Axios` to communicate with the backend API;
 - `DotEnv` to load project environment variables;
 - `React-Query` by `TanStack` to retrieve and manage data inside the application;
   performed operation;
-- `Statoscope` to generate reports about the application;
+
+## Application Support tools
+
+-   `Prettier` for code formatting;
+-   `Webpack` to bundle the application and serve it in development mode;
+-   `Log4Brains` to manage Architectural Decision Record (ADR) and generate static HTML knowledge base;
+-   `Statoscope` to generate reports about the application;
 
 ## Installation and platform bootstrap
 

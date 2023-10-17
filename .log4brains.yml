@@ -1,0 +1,5 @@
+project:
+  name: react-swapi-search-app
+  tz: Europe/Lisbon
+  adrFolder: /docs/adr
+  packages: []
