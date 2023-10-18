@@ -15,12 +15,12 @@ underneath.
 
 ## Application Tech Stack
 
-- `React` framework (with Typescript) for the overall application development;
-- `SASS` style pre-processor to build the needed application styles;
-- `Axios` to communicate with the backend API;
-- `DotEnv` to load project environment variables;
-- `React-Query` by `TanStack` to retrieve and manage data inside the application;
-  performed operation;
+-   `React` framework (with Typescript) for the overall application development;
+-   `SASS` style pre-processor to build the needed application styles;
+-   `Axios` to communicate with the backend API;
+-   `DotEnv` to load project environment variables;
+-   `React-Query` by `TanStack` to retrieve and manage data inside the application;
+    performed operation;
 
 ## Application Support tools
 
@@ -28,6 +28,11 @@ underneath.
 -   `Webpack` to bundle the application and serve it in development mode;
 -   `Log4Brains` to manage Architectural Decision Record (ADR) and generate static HTML knowledge base;
 -   `Statoscope` to generate reports about the application;
+
+## Application Testing tools
+
+-   `Jest` javascript testing framework;
+-   `React Testing Library` testing framework for working with React components;
 
 ## Installation and platform bootstrap
 
@@ -40,7 +45,7 @@ npm start
 
 ## Where to go from here (read it "further improvements")
 
-- The `Search` component could have a dropdown menu with search terms suggestions;
-- The `Search` results page does not have pagination over the results, what could improve the user experience;
-- Apply `useMemo` and / or `useCallback` where needed;
-- Implement a caching system for the result item preview instead of always consulting the API endpoint for data;
+-   The `Search` component could have a dropdown menu with search terms suggestions;
+-   The `Search` results page does not have pagination over the results, what could improve the user experience;
+-   Apply `useMemo` and / or `useCallback` where needed;
+-   Implement a caching system for the result item preview instead of always consulting the API endpoint for data;
