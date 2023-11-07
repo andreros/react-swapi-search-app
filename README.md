@@ -13,6 +13,13 @@ The app should consist of a front page with a centered search box where you can 
 results. Clicking on a result should route to a new page with the search box on top and details about the query
 underneath.
 
+## Screenshots
+
+<img src="docs/screenshots/screenshot01.jpg" width="300" alt="Main search"><br/>
+<img src="docs/screenshots/screenshot02.jpg" width="300" alt="Main search"><br/>
+<img src="docs/screenshots/screenshot03.jpg" width="300" alt="Main search"><br/>
+<img src="docs/screenshots/screenshot04.jpg" width="300" alt="Main search">
+
 ## Application Tech Stack
 
 -   `React` framework (with Typescript) for the overall application development;
